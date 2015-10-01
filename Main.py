@@ -6,7 +6,7 @@ background = image.load("Pictures/Background.jpg")
 background = transform.scale(background, (1200, 675))
 screen.blit(background, (0, 0))
 
-display.set_caption("McPaint Pro by Atilla Saadat and Masoud Harati for McHacks 2015")
+display.set_caption("McPaint Pro by Atilla Saadat and Masoud Harati for McHacks 2015. GitHub Usernames; Masoud Harati - masoudh & didyouknowthaticantwritecode, Attial Saadat - not-cosmo")
 
 canvas = draw.rect(screen, (255, 255, 255), (25, 25, 800, 625))
 
